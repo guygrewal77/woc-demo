@@ -1,6 +1,6 @@
 services:
-  filevault:
-    image: filevault
-    container_name: filevault-app
+  woc-demo:
+    image: woc-demo
+    container_name: woc-app
     ports:
       - "3000:3000"
