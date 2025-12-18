@@ -1,0 +1,20 @@
+# Local dependencies (Docker will install its own)
+node_modules/
+npm-debug.log
+
+# Git files
+.git/
+.gitignore
+
+# Environment secrets (prevent leaking credentials)
+.env
+.env.*
+.aws
+
+# Test and build artifacts
+coverage/
+dist/
+*.md
+
+# OS-specific files
+.DS_Store
